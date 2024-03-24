@@ -32,7 +32,7 @@ def myModel():
     return model
 
 model = myModel()
-model.fit(X_train, y_train, validation_data=(X_test, y_test), epochs=5, batch_size=128)
+model.fit(X_train, y_train, validation_data=(X_test, y_test), epochs=10, batch_size=128)
 scores = model.evaluate(X_test, y_test, verbose=0)
 print("Large CNN Error: %.2f%%" % (100-scores[1]*100))
 
