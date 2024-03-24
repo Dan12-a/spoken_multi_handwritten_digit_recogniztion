@@ -1,5 +1,5 @@
 ## Multiple Handwritten Digit Recognition with speak
-This project demonstrates handwritten digit recognition using a convolutional neural network (CNN) trained on the MNIST dataset. The user can draw a digit on the canvas provided by the tkinter GUI, and the model predicts the handwritten digit, displaying it on the GUI and speaking the prediction aloud using text-to-speech functionality.
+This project demonstrates Multiple handwritten digit recognition using a convolutional neural network (CNN) trained on the MNIST dataset. The user can draw a digit on the canvas provided by the tkinter GUI, and the model predicts the handwritten digit, displaying it on the GUI and speaking the prediction aloud using text-to-speech functionality.
 
 ## Requirements
 Python 3.x
