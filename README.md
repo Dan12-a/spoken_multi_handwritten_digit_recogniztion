@@ -17,7 +17,7 @@ numpy
 openCV
 PIL
 pyttsx3**
-
+**ACCURACY=99%**
 
 
 ![Screenshot 2024-03-24 153418](https://github.com/Dan12-a/spoken_multi_handwritten_digit_recogniztion/assets/119096073/907251d1-d0b8-44c5-9357-7dc6ae1e6584)
