@@ -38,14 +38,14 @@ trained_model.p: Pre-trained CNN model saved using pickle.
 README.md: This file, containing instructions and information about the project.
 
 ## Additionally, here's how you can **create** and **run** a Jupyter Notebook:
-1.Open Jupyter Notebook by running jupyter notebook command in your terminal or command prompt.
-Click on "New" -> click on "Folder".
-After Creating "Folder" Click on thar "Folder"  
-Click on "Upload" -> upload the "trained_model.p"
-Click on "New" -> "Python 3" to create a new Python 3 notebook.
-You can then start copy and paste to run code sucessfully
-Save your notebook with a meaningful name.
-2.TO RUN JUST CLICK **RUN** ON JUPYTER NOTEBOOK**
+1. Open Jupyter Notebook by running jupyter notebook command in your terminal or command prompt.
+2 .Click on "New" -> click on "Folder".
+3. After Creating "Folder" Click on thar "Folder"  
+4. Click on "Upload" -> upload the "trained_model.p"
+5. Click on "New" -> "Python 3" to create a new Python 3 notebook.
+6. You can then start copy and paste to run code sucessfully
+7. Save your notebook with a meaningful name.
+8. TO RUN JUST CLICK **RUN** ON JUPYTER NOTEBOOK**
 
 ## Additional Notes:
 - The CNN model architecture and training code are adapted from the MNIST dataset example in Keras.
