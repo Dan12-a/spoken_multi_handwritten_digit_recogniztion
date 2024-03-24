@@ -27,3 +27,11 @@ pyttsx3**
 ![Screenshot 2024-03-24 153623](https://github.com/Dan12-a/spoken_multi_handwritten_digit_recogniztion/assets/119096073/fb3085fb-09fe-4280-b7f8-67f33380218e)
 ![Screenshot 2024-03-24 155248](https://github.com/Dan12-a/spoken_multi_handwritten_digit_recogniztion/assets/119096073/ce53225e-c882-499e-a01e-425b62afb13f)
 
+**-> JUPYTER NOTEBOOK**
+**1.COPY & PASTE CODE IN JUPYTER NOTEBOOK 
+  ->** 1.CREATE A FOLDER 
+     2.AFTER CREATING FOLDER -> OPEN THAT FOLDER AND 
+     3.CLICK ON UPLOAD ->UPLOAD trained_model.p
+     4.CLICK NEW -> CLICK python and copy and paste the remaining two files
+  **
+2.TO RUN JUST CLICK **RUN** ON JUPYTER NOTEBOOK**
