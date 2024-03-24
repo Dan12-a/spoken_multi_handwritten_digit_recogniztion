@@ -29,7 +29,7 @@ pyttsx3**
 
 **-> JUPYTER NOTEBOOK**
 **1.COPY & PASTE CODE IN JUPYTER NOTEBOOK 
-  ->** 1.CREATE A FOLDER 
+  -> 1.CREATE A FOLDER 
      2.AFTER CREATING FOLDER -> OPEN THAT FOLDER AND 
      3.CLICK ON UPLOAD ->UPLOAD trained_model.p
      4.CLICK NEW -> CLICK python and copy and paste the remaining two files
