@@ -40,10 +40,10 @@ README.md: This file, containing instructions and information about the project.
 ## Additionally, here's how you can **create** and **run** a Jupyter Notebook:
 1. Open Jupyter Notebook by running jupyter notebook command in your terminal or command prompt.
 2. Click on "New" -> click on "Folder".
-3. After Creating "Folder" Click on thar "Folder"  
-4. Click on "Upload" -> upload the "trained_model.p"
+3. After Creating "Folder" Click on that "Folder" . 
+4. Click on "Upload" -> upload the ('trained_model.p').
 5. Click on "New" -> "Python 3" to create a new Python 3 notebook.
-6. You can then start copy and paste to run code sucessfully
+6. You can then start copy and paste to run code sucessfully.
 7. Save your notebook with a meaningful name.
 8. TO RUN JUST CLICK **RUN** ON JUPYTER NOTEBOOK**
 
