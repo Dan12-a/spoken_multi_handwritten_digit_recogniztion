@@ -5,20 +5,24 @@ import PIL
 import pickle
 import numpy as np
 import cv2
+import pyttsx3
 
+# Load the pre-trained model
 loaded_model = open("trained_model.p", "rb")
 model = pickle.load(loaded_model)
 
 lastx, lasty = None, None
 
-
+# Function to clear the drawing widget
 def clear_widget():
     global draw_board, image1, draw, text
+    # Clear the image, text widget, and canvas
     image1 = PIL.Image.new("RGB", (600, 200), (255, 255, 255))
     text.delete(1.0, END)
     draw = ImageDraw.Draw(image1)
     draw_board.delete('all')
 
+# Function to draw lines when mouse button is pressed and moved
 def draw_lines(event):
     global lastx, lasty
     x, y = event.x, event.y
@@ -26,14 +30,13 @@ def draw_lines(event):
     draw.line([lastx, lasty, x, y], fill="black", width=10)
     lastx, lasty = x, y
 
+# Function to activate drawing event
 def activate_event(event):
     global lastx, lasty
     draw_board.bind('<B1-Motion>', draw_lines)
     lastx, lasty = event.x, event.y
 
-
-
-
+# Function to predict and speak the handwritten digit
 def save():
     text_num = []
     global image_number
@@ -73,38 +76,54 @@ def save():
     final_text = "".join(map(str, text_num))
     text.insert(END, final_text)
     cv2.imshow('image', image)
+    engine = pyttsx3.init()
+
+    # Iterate through predicted numbers and convert them to speech
+    for digit in text_num:
+        engine.say(f"The predicted number is {digit}.")
+        engine.runAndWait()
+
+    # Destroy pyttsx3 engine instance
+    engine.stop()
     cv2.waitKey(0)
 
-
+# Create the tkinter window
 win = Tk()
-win.geometry("650x500")
+win.geometry("650x500")  # Set the window size
 win.title("Multiple Handwritten Digit Recognition")
-win.config(background="#66c2ff")
+win.config(background="#3aa9ae")
 
+# Define font style
 fontStyle = tkFont.Font(family="Lucida Grande", size=15)
 
-write_label = Label(win, text="Write your number:", bg="#66c2ff", font=fontStyle)
+# Label for instructions
+write_label = Label(win, text="Write your number:", bg="#FF3040", font=fontStyle)
 write_label.place(relx=0.03, rely=0.03)
 
-draw_board = Canvas(win, width=600, height=200, bg='white')
-draw_board.place(relx=0.03, rely=0.1)
+# Create canvas for drawing
+draw_board = Canvas(win, width=800, height=300, bg='white')  # Increase width and height
+draw_board.place(relx=0.03, rely=0.1, relwidth=0.94, relheight=0.45)  # Adjust the placement and relative size
 draw_board.bind('<Button-1>', activate_event)
-#
 
+# Create PIL image and draw object for drawing on canvas
 image1 = PIL.Image.new("RGB", (600, 200), (255, 255, 255))
 draw = ImageDraw.Draw(image1)
 
-button=Button(text="Extract", command=save, bg="#66c2ff", font=tkFont.Font(family="Lucida Grande", size=20))
+# Button to predict and speak the digit
+button = Button(text="PREDICT and SPEAK", command=save, bg="#FFC0CB", font=tkFont.Font(family="Lucida Grande", size=15))
 button.place(relx=0.5, rely=0.63, anchor=CENTER)
 
-predict_label = Label(win, text="Extracted Number:", bg="#66c2ff", font=tkFont.Font(family="Lucida Grande", size=13))
+# Label to display predicted number
+predict_label = Label(win, text="PREDICTED NUMBER:", bg="#FFC0CB", font=tkFont.Font(family="Lucida Grande", size=15))
 predict_label.place(relx=0.03, rely=0.7)
 
-text = Text(win, height=2, width=25, font=tkFont.Font(family="Lucida Grande", size=13))
+# Text widget to display predicted number
+text = Text(win, height=2, width=10, font=tkFont.Font(family="Lucida Grande", size=13))
 text.place(relx=0.03, rely=0.77)
 
-del_btn = Button(win, text="Erase All", command=clear_widget, bg="#66c2ff", width=8, font=tkFont.Font(family="Lucida Grande", size=15))
+# Button to clear canvas and text widget
+del_btn = Button(win, text="CLEAR ALL", command=clear_widget, bg="#FFC0CB", width=10, font=tkFont.Font(family="Lucida Grande", size=15))
 del_btn.place(relx=0.03, rely=0.88)
 
-
+# Run the tkinter event loop
 win.mainloop()
