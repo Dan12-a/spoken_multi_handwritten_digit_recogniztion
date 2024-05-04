@@ -55,10 +55,9 @@ README.md: This file, containing instructions and information about the project.
 ## ACCURACY=99%
 
 
-![Screenshot 2024-03-24 153418](https://github.com/Dan12-a/spoken_multi_handwritten_digit_recogniztion/assets/119096073/907251d1-d0b8-44c5-9357-7dc6ae1e6584)
-![Screenshot 2024-03-24 153459](https://github.com/Dan12-a/spoken_multi_handwritten_digit_recogniztion/assets/119096073/a8dc1777-bac2-49fa-80c5-6762571ef252)
-![Screenshot 2024-03-24 153516](https://github.com/Dan12-a/spoken_multi_handwritten_digit_recogniztion/assets/119096073/aa7d3934-aa08-4a04-aae2-f507c8c4d94d)
-![Screenshot 2024-03-24 153545](https://github.com/Dan12-a/spoken_multi_handwritten_digit_recogniztion/assets/119096073/191ba356-864c-4bb5-8eb6-84f67afb10c2)
-![Screenshot 2024-03-24 153623](https://github.com/Dan12-a/spoken_multi_handwritten_digit_recogniztion/assets/119096073/fb3085fb-09fe-4280-b7f8-67f33380218e)
-![Screenshot 2024-03-24 155248](https://github.com/Dan12-a/spoken_multi_handwritten_digit_recogniztion/assets/119096073/ce53225e-c882-499e-a01e-425b62afb13f)
-
+![Screenshot 2024-05-04 150452](https://github.com/Dan12-a/spoken_multi_handwritten_digit_recogniztion/assets/119096073/c8881415-5bdb-42a3-9eff-a152db9662e9)
+![Screenshot 2024-04-18 105530](https://github.com/Dan12-a/spoken_multi_handwritten_digit_recogniztion/assets/119096073/7d9ae759-3718-44b6-8bdf-75c7d1560fce)
+![Screenshot 2024-04-18 104737](https://github.com/Dan12-a/spoken_multi_handwritten_digit_recogniztion/assets/119096073/3edf2452-2e70-434f-ae24-5a102e40a69e)
+![Screenshot 2024-04-18 102211](https://github.com/Dan12-a/spoken_multi_handwritten_digit_recogniztion/assets/119096073/92e4b194-bc89-4f11-8b2c-a8a4fb3b7f53)
+![Screenshot 2024-05-04 150831](https://github.com/Dan12-a/spoken_multi_handwritten_digit_recogniztion/assets/119096073/42cc4c9e-bc2b-48e3-bbb0-927e55d12155)
+![Screenshot 2024-05-04 150810](https://github.com/Dan12-a/spoken_multi_handwritten_digit_recogniztion/assets/119096073/507175f3-2992-4e46-bb98-0bdea8afa08b)
