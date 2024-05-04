@@ -56,9 +56,10 @@ README.md: This file, containing instructions and information about the project.
 ## ACCURACY=99%
 
 
-![Screenshot 2024-05-04 150452](https://github.com/Dan12-a/spoken_multi_handwritten_digit_recogniztion/assets/119096073/c8881415-5bdb-42a3-9eff-a152db9662e9)
-![Screenshot 2024-04-18 105530](https://github.com/Dan12-a/spoken_multi_handwritten_digit_recogniztion/assets/119096073/7d9ae759-3718-44b6-8bdf-75c7d1560fce)
-![Screenshot 2024-04-18 104737](https://github.com/Dan12-a/spoken_multi_handwritten_digit_recogniztion/assets/119096073/3edf2452-2e70-434f-ae24-5a102e40a69e)
-![Screenshot 2024-05-04 150831](https://github.com/Dan12-a/spoken_multi_handwritten_digit_recogniztion/assets/119096073/42cc4c9e-bc2b-48e3-bbb0-927e55d12155)
-![Screenshot 2024-05-04 150810](https://github.com/Dan12-a/spoken_multi_handwritten_digit_recogniztion/assets/119096073/507175f3-2992-4e46-bb98-0bdea8afa08b)
-![image](https://github.com/Dan12-a/spoken_multi_handwritten_digit_recogniztion/assets/119096073/2f28324f-bbb0-4bbb-98f7-b54995f58f9d)
+![Screenshot 2024-05-04 150452](https://github.com/Dan12-a/spoken_multi_handwritten_digit_recogniztion/assets/119096073/9307d3a5-dbfc-45b1-8267-070ad19fdf88)
+![Screenshot 2024-05-04 151422](https://github.com/Dan12-a/spoken_multi_handwritten_digit_recogniztion/assets/119096073/99fc30e7-f7db-4c49-bfae-2dc337d9be9a)
+![Screenshot 2024-05-04 145935](https://github.com/Dan12-a/spoken_multi_handwritten_digit_recogniztion/assets/119096073/3397cc48-cb09-4284-b426-3bca83aa47c2)
+![Screenshot 2024-05-04 150810](https://github.com/Dan12-a/spoken_multi_handwritten_digit_recogniztion/assets/119096073/52a6039e-668e-45c1-af80-44f958765bc3)
+![Screenshot 2024-04-18 105530](https://github.com/Dan12-a/spoken_multi_handwritten_digit_recogniztion/assets/119096073/941fb2a8-92fd-47b8-bb6f-ea6ec598cdaa)
+![Screenshot 2024-04-18 105151](https://github.com/Dan12-a/spoken_multi_handwritten_digit_recogniztion/assets/119096073/03847bfd-17ae-419b-a8c8-46ae0420076d)
+![Screenshot 2024-04-18 105118](https://github.com/Dan12-a/spoken_multi_handwritten_digit_recogniztion/assets/119096073/010e3d8d-16e1-41d8-9ea8-846697e2386c)
