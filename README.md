@@ -1,3 +1,4 @@
+![Screenshot 2024-05-04 145935](https://github.com/Dan12-a/spoken_multi_handwritten_digit_recogniztion/assets/119096073/d6a006a9-5ba0-4913-a21c-aed14e4b36c7)
 ## Multiple Handwritten Digit Recognition with speak
 This project demonstrates Multiple handwritten digit recognition using a convolutional neural network (CNN) trained on the MNIST dataset. The user can draw a digit on the canvas provided by the tkinter GUI, and the model predicts the handwritten digit, displaying it on the GUI and speaking the prediction aloud using text-to-speech functionality.
 
@@ -58,6 +59,6 @@ README.md: This file, containing instructions and information about the project.
 ![Screenshot 2024-05-04 150452](https://github.com/Dan12-a/spoken_multi_handwritten_digit_recogniztion/assets/119096073/c8881415-5bdb-42a3-9eff-a152db9662e9)
 ![Screenshot 2024-04-18 105530](https://github.com/Dan12-a/spoken_multi_handwritten_digit_recogniztion/assets/119096073/7d9ae759-3718-44b6-8bdf-75c7d1560fce)
 ![Screenshot 2024-04-18 104737](https://github.com/Dan12-a/spoken_multi_handwritten_digit_recogniztion/assets/119096073/3edf2452-2e70-434f-ae24-5a102e40a69e)
-![Screenshot 2024-04-18 102211](https://github.com/Dan12-a/spoken_multi_handwritten_digit_recogniztion/assets/119096073/92e4b194-bc89-4f11-8b2c-a8a4fb3b7f53)
 ![Screenshot 2024-05-04 150831](https://github.com/Dan12-a/spoken_multi_handwritten_digit_recogniztion/assets/119096073/42cc4c9e-bc2b-48e3-bbb0-927e55d12155)
 ![Screenshot 2024-05-04 150810](https://github.com/Dan12-a/spoken_multi_handwritten_digit_recogniztion/assets/119096073/507175f3-2992-4e46-bb98-0bdea8afa08b)
+![image](https://github.com/Dan12-a/spoken_multi_handwritten_digit_recogniztion/assets/119096073/2f28324f-bbb0-4bbb-98f7-b54995f58f9d)
