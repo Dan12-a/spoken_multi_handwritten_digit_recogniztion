@@ -7,7 +7,7 @@
 ![Screenshot 2024-04-18 105118](https://github.com/Dan12-a/spoken_multi_handwritten_digit_recogniztion/assets/119096073/010e3d8d-16e1-41d8-9ea8-846697e2386c)
 
 ## Multiple Handwritten Digit Recognition with speak
-This project demonstrates Multiple handwritten digit recognition using a convolutional neural network (CNN) trained on the MNIST dataset. The user can draw a digit on the canvas provided by the tkinter GUI, and the model predicts the handwritten digit, displaying it on the GUI and speaking the prediction aloud using text-to-speech functionality.
+This project demonstrates Multiple handwritten digit recognition using a convolutional neural network (CNN) trained on the MNIST dataset. The user can draw a digit or load the digit on the canvas provided by the tkinter GUI, and the model predicts the handwritten digit, displaying it on the GUI and speaking the prediction aloud using text-to-speech functionality and can save the image and can select the color to draw.
 
 ## Requirements
 Python 3.x
@@ -28,7 +28,10 @@ pyttsx3
 4. A tkinter window will open with a canvas where you can draw a single digit.
 5. After drawing the digit, click the "PREDICT and SPEAK" button.
 6. The predicted digit will be displayed in the tkinter window and spoken aloud.
-7. To clear the canvas and predicted digit, click the "CLEAR ALL" button.
+7. you can load the image by clicking load image button.It will predict the loaded image.
+8. you can select the color to draw->default color is black.
+9. you can save the drawn image by clicking save image button.
+10. To clear the canvas and predicted digit, click the "CLEAR ALL" button.
 
 ## How it Works
 - The script loads a pre-trained CNN model (`trained_model.p`) using pickle.
