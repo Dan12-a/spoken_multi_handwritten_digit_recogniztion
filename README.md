@@ -7,7 +7,9 @@
 ![Screenshot 2024-04-18 105118](https://github.com/Dan12-a/spoken_multi_handwritten_digit_recogniztion/assets/119096073/010e3d8d-16e1-41d8-9ea8-846697e2386c)
 
 ## Multiple Handwritten Digit Recognition with speak
-This project demonstrates Multiple handwritten digit recognition using a convolutional neural network (CNN) trained on the MNIST dataset. The user can draw a digit or load the digit on the canvas provided by the tkinter GUI, and the model predicts the handwritten digit, displaying it on the GUI and speaking the prediction aloud using text-to-speech functionality and can save the image and can select the color to draw.
+Handwritten digit recognition is a process where computers interpret and classify handwritten numerical characters, such as digits 0 through 9, into their respective numeric values. This technology is utilized in diverse fields including postal services, banking, and education, where automatic interpretation of handwritten digits is necessary for efficient processing of data. Techniques for handwritten digit recognition often involve training machine learning models, particularly convolutional neural networks (CNNs), on labeled datasets to accurately classify digit images. The goal is to achieve high accuracy in identifying handwritten digits, thereby streamlining tasks that involve handwritten numerical data.
+
+This project demonstrates spoken Multiple handwritten digit recognition using a convolutional neural network (CNN) trained on the MNIST dataset. The user can draw a digit or load the digit on the canvas provided by the tkinter GUI, and the model predicts the handwritten digit, displaying it on the GUI and speaking the prediction aloud using text-to-speech functionality and can save the image and can select the color to draw.
 
 ## Requirements
 Python 3.x
@@ -19,6 +21,15 @@ matplotlib
 PIL
 cv2
 pyttsx3
+
+### Features
+1.Draw digits using a canvas interface.
+2.Load existing images containing handwritten digits for prediction.
+3.Predict handwritten digits using a pre-trained CNN model.
+4.Display predicted digits on the interface.
+5.Speak the predicted digits using text-to-speech functionality.
+6.Clear the canvas and prediction display.
+7.Save the drawn digit as an image file.
 
 ## Usage
 1. Ensure all dependencies are installed.
